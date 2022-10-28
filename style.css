@@ -1,0 +1,147 @@
+body {
+  background-color: rgb(231, 231, 231);
+  font-size: 28px;
+  vertical-align: middle;
+  margin-top: 30px;
+}
+
+#ramka {
+  max-width: 700px;
+  min-height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  background-image: url("./img/godlo_tlo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: overlay;
+
+}
+
+#rachuj{
+margin-left: auto;
+margin-right: auto;
+
+}
+#pola {
+  width: 100%;
+  margin-top: 10;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+form {
+  border: 0px solid #333;
+  margin-bottom: 15px;
+  padding: 15px;
+  align-items: center;
+  color: rgb(61, 61, 61);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+input[type="text"] {
+  width: 60%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-shadow: 5px 5px 5px rgb(128, 128, 128);
+  font-size: medium;
+
+  
+}
+
+#glow { text-shadow:
+  0 0 5px black, 0 0 10px black,
+  0 0 20px black, 0 0 40px black;
+color: white;}
+
+#nazwa {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 110px;
+  width: 63%;
+  background-color: rgb(236, 240, 239);
+  padding-top: 15px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  box-shadow: 1px 1px 5px rgb(128, 128, 128);
+  min-height: 50px;
+  color: rgb(53, 53, 53);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  
+
+}
+
+#copyright {
+  font-size: 12px;
+  color: rgb(80, 80, 80);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  text-align: right;
+  float: right;
+  margin-top: 15px;
+}
+
+#reset {
+  display: none;
+  float: left;
+}
+
+.btn {
+  position: relative;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 2em;
+  display: inline-block;
+  border-radius: 15px;
+  transition: all .2s;
+  border: 1px solid rgb(141, 120, 120);
+  font-family: inherit;
+  font-weight: 600;
+  color: black;
+  background-color: rgb(184, 252, 195);
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  
+ }
+ 
+ .btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);}
+
+
+  .btn:focus {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(148, 148, 148);
+    color: white;
+ }
+
+ button{
+  background-color: rgb(255, 0, 0);
+  border: 1px solid rgb(141, 120, 120);
+  padding: 4px 5px;
+  border-radius: 5px;
+  color: white;
+ }
+ button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: rgb(170, 169, 169);
+  color: white;
+}
+  
+
+ button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
