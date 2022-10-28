@@ -11,7 +11,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding-top: 50px;
-  background-image: url("./img/godlo_tlo.png");
+  background-image: url("godlo_tlo.png");
   background-repeat: no-repeat;
   background-position: center;
   background-blend-mode: overlay;
