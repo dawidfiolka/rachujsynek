@@ -83,7 +83,7 @@ document.getElementById("reset").style.display = "block";
 function validowanie1() {
 if (sprowdzej()) {
   document.getElementById("nazwa").innerHTML = `<font color="green">Ja, tera je dobrze</font>`;  }
-document.getElementById("reset").style.display = "block";
+return false;
 }
 
 
